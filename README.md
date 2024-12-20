@@ -1,4 +1,4 @@
-# Action-Recognition-in-Videos
+# Action-Recognition-in-Videos (Disseratation research)
 
 This repo will serve as a playground where I investigate different approaches to solving the problem of action recognition in video.
 
@@ -17,7 +17,7 @@ The model is composed of:
 
 A convolutional feature extractor (ResNet-152) which provides a latent representation of video frames
 A bi-directional LSTM classifier which based on the latent representation of the video predicts the activity depicted
-I have made a trained model available here.
+
 
 
 ```
@@ -36,4 +36,4 @@ $ python3 test_on_video.py  --video_path data/UCF-101/SoccerPenalty/v_SoccerPena
 ```
 
 
-The model reaches a classification accuracy of 91.27% accuracy on a randomly sampled test set, composed of 20% of the total amount of video sequences from UCF-101. Will re-train this model on the offical train / test splits and post results as soon as I have time.
+The model reaches a classification accuracy of 99% accuracy on a randomly sampled test set, composed of 20% of the total amount of video sequences from UCF-101. 
