@@ -1,6 +1,6 @@
 # Action-Recognition-in-Videos (Disseratation research)
 
-This repo will serve as a playground where I investigate different approaches to solving the problem of action recognition in video.# and it takes inspiration from https://github.com/eriklindernoren/Action-Recognition
+This repo will serve as a playground where I investigate different approaches to solving the problem of action recognition in video and it takes inspiration from https://github.com/eriklindernoren/Action-Recognition
 
 I will mainly use the UCF-101 dataset.
 ```
@@ -18,7 +18,7 @@ The model is composed of:
 A convolutional feature extractor (ResNet-152) which provides a latent representation of video frames
 A bi-directional LSTM classifier which based on the latent representation of the video predicts the activity depicted
 
-
+Steps to execute it
 
 ```
 $ python3 train.py  --dataset_path data/UCF-101-frames/ \
