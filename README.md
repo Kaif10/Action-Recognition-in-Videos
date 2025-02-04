@@ -1,4 +1,5 @@
-# Action-Recognition-in-Videos (Disseratation research)
+# (Spatiotemporal)Action-Recognition-in-Videos (Disseratation research)
+
 
 This repo will serve as a playground where I investigate different approaches to solving the problem of action recognition in video and it takes inspiration from https://github.com/eriklindernoren/Action-Recognition
 
@@ -35,5 +36,9 @@ $ python3 test_on_video.py  --video_path data/UCF-101/SoccerPenalty/v_SoccerPena
                             --checkpoint_model model_checkpoints/ConvLSTM_150.pth
 ```
 
+### Highlights
+Model Architecture: Combines a ResNet-152 CNN for spatial feature extraction with a bi-directional ConvLSTM for temporal modeling, enhanced by an attention mechanism for dynamic frame weighting.
+Dataset: UCF-101 with preprocessing steps like frame extraction, resizing, normalization, and videonsequence sampling.
+Applications: Action recognition in diverse domains including surveillance, sports analytics, and human-computer interaction.
 
 The model reaches a classification accuracy of 99% accuracy on a randomly sampled test set, composed of 20% of the total amount of video sequences from UCF-101. 
