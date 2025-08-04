@@ -1,6 +1,6 @@
 # (Spatiotemporal)Action-Recognition-in-Videos (Disseratation research)
 
-
+Research thesis pdf: 
 This repo will serve as a playground where I investigate different approaches to solving the problem of action recognition in video and it takes inspiration from https://github.com/eriklindernoren/Action-Recognition
 
 I will mainly use the UCF-101 dataset.
